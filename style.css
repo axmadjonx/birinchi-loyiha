@@ -33,3 +33,11 @@ text-decoration: none;
 nav > a:hover {
     opacity: 0.8;
 }
+
+.section-div{
+    display: block;
+}
+
+img{
+    width: 400;
+}
