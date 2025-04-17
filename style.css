@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: burlywood;
+}
 
 header{
     background-color: black;
@@ -34,10 +37,59 @@ nav > a:hover {
     opacity: 0.8;
 }
 
-.section-div{
-    display: block;
+section{
+    margin-top: 30px;
+    text-align: center;
 }
-
-img{
-    width: 400;
+h1{
+ text-align: center;
+ margin-top: 35px;
+}
+.rasm{
+    width: 900px;
+}
+.section-p{
+    margin: 30px;
+    font-size: 23px;
+    font-weight: 800px;
+}
+h4{
+    font-size: 27px;
+}
+h2{
+    font-size: 30px;
+}
+.ptegi{
+    font-size: 23px;
+    font-weight: 800px;
+}
+h5{
+    font-size: 30px;
+    margin: 30px;
+}
+.lilar{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+footer{
+    background-color: black;
+    padding: 20px 50px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+.l{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.l > a{
+    color: white;
+text-decoration: none;
+}
+.logow{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+    color: white; 
 }
